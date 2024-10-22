@@ -1,0 +1,28 @@
+@import '../../../_colors.scss';
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+.preview-style{
+    background-color: #000000;
+    width: 100%;
+}
+
+.command-line-history{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.command-viewer{
+    min-height: 40vh;
+}
+
+.command-line-history{
+    max-height: 40vh;
+}
+
+@media (max-width: 575.98px) {
+    .command-line-history{
+        height: 300px;
+    }
+}
